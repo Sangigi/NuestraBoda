@@ -252,32 +252,32 @@ function initScrollAnimations() {
   })
 
   // Animate story items
-  gsap.utils.toArray(".story-item").forEach((item, i) => {
-    gsap.from(item, {
-      y: 100,
-      opacity: 0,
-      duration: 1,
-      delay: i * 0.2,
-      scrollTrigger: {
-        trigger: item,
-        start: "top 80%",
-        toggleActions: "play none none none",
-      },
-    })
-  })
+  // gsap.utils.toArray(".story-item").forEach((item, i) => {
+  //   gsap.from(item, {
+  //     y: 100,
+  //     opacity: 0,
+  //     duration: 1,
+  //     delay: i * 0.2,
+  //     scrollTrigger: {
+  //       trigger: item,
+  //       start: "top 80%",
+  //       toggleActions: "play none none none",
+  //     },
+  //   })
+  // })
 
   // Animate detail cards
-  gsap.from(".detail-card", {
-    y: 100,
-    opacity: 0,
-    duration: 1,
-    stagger: 0.3,
-    scrollTrigger: {
-      trigger: ".details-grid",
-      start: "top 80%",
-      toggleActions: "play none none none",
-    },
-  })
+  // gsap.from(".detail-card", {
+  //   y: 100,
+  //   opacity: 0,
+  //   duration: 1,
+  //   stagger: 0.3,
+  //   scrollTrigger: {
+  //     trigger: ".details-grid",
+  //     start: "top 80%",
+  //     toggleActions: "play none none none",
+  //   },
+  // })
 
   // Animate quote
   gsap.from(".quote", {
@@ -292,34 +292,34 @@ function initScrollAnimations() {
   })
 
   // Animate gallery items
-  gsap.utils.toArray(".gallery-item").forEach((item, i) => {
-    gsap.from(item, {
-      y: 50,
-      opacity: 0,
-      duration: 0.8,
-      delay: i * 0.1,
-      scrollTrigger: {
-        trigger: ".gallery-grid",
-        start: "top 80%",
-        toggleActions: "play none none none",
-      },
-    })
-  })
+  // gsap.utils.toArray(".gallery-item").forEach((item, i) => {
+  //   gsap.from(item, {
+  //     y: 50,
+  //     opacity: 0,
+  //     duration: 0.8,
+  //     delay: i * 0.1,
+  //     scrollTrigger: {
+  //       trigger: ".gallery-grid",
+  //       start: "top 80%",
+  //       toggleActions: "play none none none",
+  //     },
+  //   })
+  // })
 
   // Animate gift options
-  gsap.utils.toArray(".gift-option").forEach((item, i) => {
-    gsap.from(item, {
-      y: 50,
-      opacity: 0,
-      duration: 0.8,
-      delay: i * 0.2,
-      scrollTrigger: {
-        trigger: ".gift-options",
-        start: "top 80%",
-        toggleActions: "play none none none",
-      },
-    })
-  })
+  // gsap.utils.toArray(".gift-option").forEach((item, i) => {
+  //   gsap.from(item, {
+  //     y: 50,
+  //     opacity: 0,
+  //     duration: 0.8,
+  //     delay: i * 0.2,
+  //     scrollTrigger: {
+  //       trigger: ".gift-options",
+  //       start: "top 80%",
+  //       toggleActions: "play none none none",
+  //     },
+  //   })
+  // })
 
   // Progress bar animation
   gsap.to(".progress-fill", {
